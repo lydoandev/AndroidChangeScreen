@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="56dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ff5050"
+            android:textSize="20dp"
+            android:text="CARO GAME">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:background="@color/colorBlue"/>
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:background="@color/colorYellow"/>
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:background="@color/colorPink"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:background="@color/colorYellow"
+                />
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:background="@color/colorPink"
+                />
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:background="@color/colorBlue"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:background="@color/colorPink"
+                />
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:background="@color/colorBlue"/>
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:background="@color/colorYellow"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_playAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY AGAIN"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="#ff6666"
+            />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
